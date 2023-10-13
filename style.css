@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 100%;
+  padding: 0 5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.navbar > a {
+  color: #703412;
+  font-size: 14px;
+}
+
+/* ------------ intro ------------- */
+.intro {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 10% 0;
+}
+
+.intro > p {
+  color: #703412;
+  font-size: 11px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.intro > h1 {
+  max-width: 880px;
+  color: #703412;
+  font-size: 80px;
+  line-height: 110%;
+}
+
+.intro > h3 {
+  max-width: 575px;
+  color: #703412;
+  font-size: 32px;
+  line-height: 130%;
+  padding-top: 10%;
+}
+
+/* ------- items -------------- */
+.items {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+}
+
+.item {
+  width: calc((100% - 120px) / 3);
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}
+
+.item > img {
+  width: 100%;
+  aspect-ratio: 5/4;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0px 8px 30px 0px rgba(0, 0, 0, 0.12);
+}
+
+.item > h4 {
+  color: #703412;
+  font-size: 24px;
+  padding-top: 21px;
+}
+
+.item > p {
+  color: rgba(112, 52, 18, 0.72);
+  font-size: 12px;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+}
+.box {
+  width: 1200px;
+  height: 644px;
+  top: 2574px;
+  background: rgba(8, 73, 53, 1);
+  justify-content: center;
+  align-items: center;
+  /* display: flex; */
+}
+.harf {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 150px;
+  /* margin-left: 39px; */
+  /* padding: 39px; */
+  color: white;
+  padding-left: 25px;
+}
+
+.harf1 {
+  color: white;
+  font-weight: 400;
+  line-height: 38px;
+  /* padding: 20px; */
+  display: flex;
+  flex-direction: column;
+  padding-left: 25px;
+}
+.box1 {
+  width: 100%;
+  height: 200px;
+  /* background-color: red;  */
+  font-size: 16px;
+  display: flex;
+  flex-direction: row;
+  padding-top: 150px;
+  padding-right: 300px;
+  justify-content: center;
+  gap: 150px;
+  color: white;
+  
+}
+.shaxreza{
+    width: 95px;
+height: 24px;
+top: 2923px;
+left: 72px;
+
+    
+}
+.H4{
+ display: flex;
+}
